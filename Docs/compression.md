@@ -2,6 +2,7 @@
 **ImgBot** uses compression algorithms to optimize images, and by default `LosslessCompress()` is used.
 This means that while the file size is going down, the quality and dimensions remain intact.
 
+
 When configuring your setup, you can choose between non-aggressive `LosslessCompress()` and aggressive `LossyCompression()` compression.
 
 To provide the strong optimization, **ImgBot** utilizes multiple compression algorithms, and these are currently implemented:
